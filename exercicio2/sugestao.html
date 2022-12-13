@@ -23,12 +23,20 @@
             <label for="email">Email:</label>
             <input type="text" name="email" id="email" placeholder="seuemail@email.com">
             <br>
+            <label for="climas">Climas</label>
+            <select name="climas" id="climas" required>
+                <option value="">Selecione</option>
+                <option value="">Ensolarado</option>
+                <option value="">Nublado</option>
+                <option value="">Garoa</option>
+                <option value="">Névoa</option>
+                <option value="clima">Outro</option>
+            </select>
             <label for="clima">Sugestão de Clima:</label>
-            <input type="text" name="clima" id="clima" placeholder="Digite aqui a sua sugestão">
+            <input type="text" name="clima" id="clima" placeholder="Digite aqui a sua sugestão" required="clima">
             <br>
             </p>
 <!-- Seu formukário aqui!-->
-            <!-- <input type="submit"> -->
             <button>Submit</button>
         </form>
 
